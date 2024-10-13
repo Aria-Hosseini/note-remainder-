@@ -1,0 +1,86 @@
+.nav-wrapper{
+    background-color:  #00acc1;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+.matnyek{
+    font-family: vazir;
+    font-size: 35px;
+    text-align: center;
+}
+.paragraphyek{
+    font-family: vazir;
+    font-size: 15px;
+    text-align: center;
+}
+.btn{
+    font-family: vazir;
+    width: 200px;
+    text-align: center;
+}
+.divitondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.Vihan {
+    color: rgb(62, 62, 62);
+    transition: .5s;
+    font-family: vazir;
+}
+.Vihan:hover{
+    color: aliceblue;
+}
+.container{
+    font-family: vazir;
+}
+.footerdiv{
+display: flex ;
+justify-content: center;
+flex-direction: row;
+}
+.ulfooter{
+    display: flex ;
+    justify-content: center;
+}
+.ulfooter li{
+    margin-right:12px;
+    margin-left: 12px;
+}
+.ulfooter li a{
+    color: rgb(34, 34, 34);
+    font-family: vazir;
+    transition: transform 0.3s ease !important;
+}
+.ulfooter li a:hover{
+    color: #2196F3;
+    transform: translateY(-5px) !important;
+}
+.material-icons{
+    margin-top: 8px;
+    color: rgb(40, 40, 40);
+}
+.carousel {
+    height: 500px; 
+    margin-top: -100px; 
+  }
+  
+  .carousel img {
+    width: 300px; 
+    height: 300px; 
+    object-fit:contain;
+  }
+  
+  .carousel-slider {
+    position: relative;
+    width: 100%; 
+  }
+  
+  .carousel .carousel-item {
+    width: 100%;
+  }
+  
