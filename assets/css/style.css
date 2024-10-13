@@ -83,4 +83,7 @@ flex-direction: row;
   .carousel .carousel-item {
     width: 100%;
   }
-  
+  .waves-effect{
+    border-radius: 5px;
+    padding: 30px;
+  }
