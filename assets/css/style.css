@@ -83,7 +83,31 @@ flex-direction: row;
   .carousel .carousel-item {
     width: 100%;
   }
-  .waves-effect{
+ .waves-effect{
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 5px;
-    padding: 30px;
+ }
+ .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .row{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+  }
+  @media (max-width: 768px) {
+    .row {
+    display: flex;
+    justify-content:left;
+    width: 100%; 
+    }
   }
